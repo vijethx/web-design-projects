@@ -3,3 +3,28 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+nav {
+  padding-right: 100px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 1px 2px #eee;
+}
+#logo {
+  width: 120px;
+  height: 20px;
+  margin-top: 20px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+li {
+  padding: 20px;
+  color: #666;
+}
+li:hover{
+  cursor: pointer;
+  color: rgb(105, 197, 228);
+}
